@@ -1,4 +1,4 @@
-package observerPattern;
+package observerPattern.Practice;
 
 public class CurrentConditionsDisplay implements Observer,DisplayElements{
     private float temp;

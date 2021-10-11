@@ -1,4 +1,4 @@
-package observerPattern;
+package observerPattern.Practice;
 
 public class WeatherStation {
     public static void main(String[] args) {

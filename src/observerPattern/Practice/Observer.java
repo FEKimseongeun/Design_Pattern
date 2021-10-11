@@ -1,4 +1,4 @@
-package observerPattern;
+package observerPattern.Practice;
 
 public interface Observer {
     public void update(float temp,float humidity, float pressure);
