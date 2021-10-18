@@ -1,4 +1,4 @@
-package decoratorPattern.Practice;
+package decoratorPattern.Practice.StarBuzz;
 
 public abstract class CondimentDecorator extends Beverage{
     public abstract String getDescription();

@@ -1,4 +1,4 @@
-package decoratorPattern.Practice;
+package decoratorPattern.Practice.StarBuzz;
 
 public class Espresso extends Beverage{
     public Espresso(){

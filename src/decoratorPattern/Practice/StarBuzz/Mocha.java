@@ -1,4 +1,4 @@
-package decoratorPattern.Practice;
+package decoratorPattern.Practice.StarBuzz;
 //데코레이터 역할을 하는 모카 클래스
 public class Mocha extends CondimentDecorator{
     Beverage beverage;

@@ -1,5 +1,5 @@
 //컴포넌트
-package decoratorPattern.Practice;
+package decoratorPattern.Practice.StarBuzz;
 
 public abstract class Beverage {
     String description = "제목 없음";
