@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class MainWindow extends FrameWindow implements ActionListener {
-    private static final String MAIN_TITLE = "Main Window";
+    private static final String MAIN_TITLE = "StrategyPattern.Practice.Main Window";
     private static final String TEXTFIELD_WINDOW_TITLE = "TextField Window";
     private static final String LABEL_WINDOW_TITLE = "Label Window";
     private static final String TEXTFIELD_OBSERVER_BUTTON_TITLE = "Update TextField Window Observer";

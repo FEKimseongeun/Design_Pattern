@@ -1,3 +1,5 @@
+package StrategyPattern.Practice;
+
 public class Sorter {
     Comparable compare;
     Sorter(Comparable comparable){

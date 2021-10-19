@@ -1,3 +1,5 @@
+package StrategyPattern.Practice;
+
 public class CompareFileName implements Comparable {
     @Override
     public int compareTo(Object o1, Object o2){
