@@ -1,7 +1,5 @@
-package Sorter;
+package StrategyPattern.Sorter;
 
-import java.text.ParsePosition;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Sorter {
