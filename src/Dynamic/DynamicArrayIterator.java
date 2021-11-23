@@ -1,11 +1,12 @@
 package Dynamic;
+
 import java.util.Iterator;
 
-public class DynamicArrayIterator implements Iterator {
-    private DynamicArray array;
+public class DynamicArrayIterator<T> implements Iterator<T> {
+    private DynamicArray<T> array;
     private int index;
 
-    public DynamicArrayIterator(DynamicArray arr) {
+    public DynamicArrayIterator(DynamicArray<T> arr) {
         array = arr;
         index = 0;
     }
@@ -16,10 +17,10 @@ public class DynamicArrayIterator implements Iterator {
     }
 
     @Override
-    public Object next() {
+    public T next() {
         Object obj = array.elemAt(index);
         index++;
-        return obj;
+        return (T) obj;
     }
 
     @Override

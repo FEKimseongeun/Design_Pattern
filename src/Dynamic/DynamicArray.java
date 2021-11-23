@@ -1,10 +1,11 @@
 package Dynamic;
+
 import java.util.Iterator;
 
 //DynamicArray<String> strArray = new DynamicArray<String>();
 //DynamicArray<Integer> intArray = new DynamicArray<Integer>();
 
-public class DynamicArray<T> implements DataCollection<T> {
+public class DynamicArray<T> implements DataCollection<T>, Iterable<T> {
     final int SIZE = 3;
     private int length;
     private int capacity;
@@ -47,6 +48,10 @@ public class DynamicArray<T> implements DataCollection<T> {
         return new DynamicArrayIterator(this);
     }
 
+    public Iterator<T> iterator() {
+        return new DynamicArrayIterator<T>(this);
+    }
+    
     private boolean resizeArray() {
         Object[] newData = new Object[capacity + SIZE];
         if (newData == null) {
