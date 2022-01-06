@@ -33,6 +33,8 @@ public class TestDynamicArray {
         }
 
         ArrayList<String> list = new ArrayList<String>();
+        // 여기서는 만들어진 어댑터 클래스가 ArrayListDataCollectionAdapter라고 가정함. 다른 이름으로 만들었다면 
+        // 다음 코드를 수정할 것
         DataCollection<String> arr2 = new ArrayListDataCollectionAdapter<String>(list);
         arr2.put("Seoul");
         arr2.put("Busan");

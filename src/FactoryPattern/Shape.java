@@ -13,11 +13,11 @@ public abstract class Shape {
     abstract double calcArea();
 
     public String toString() {
-        System.out.println(type);
+        String s= type+"\n";
         for(int i=0; i<points.length; i++)
-            System.out.println("p"+i+": "+points[i]);
-        System.out.println("area : "+calcArea());
-        return "";
+            s+="p"+i+": "+points[i].toString()+"\n";
+        s+=("area: " + calcArea());
+        return s;
     }
 
 
